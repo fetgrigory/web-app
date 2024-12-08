@@ -1,0 +1,30 @@
+{% load static %}  <!-- Loads the Django template tags for accessing static files. -->
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0">  <!-- Sets viewport for responsive design. -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">  <!-- Ensures compatibility with older IE browsers. -->
+    <title>{% block title %}{% endblock %}</title>  <!-- Defines the title of the page, allowing it to be overridden by child templates. -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">  <!-- Includes Bootstrap 4.5.2 CSS framework. -->
+    <link rel="stylesheet" href="{% static 'main/css/main.css' %}">  <!-- Includes the project's custom CSS stylesheet. -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">  <!-- Includes Font Awesome for icons. -->
+</head>
+<body>
+    <aside>  <!-- Sidebar navigation -->
+        <img src="{% static 'main/img/logo.png' %}" alt="Лого">  <!-- Project logo -->
+        <span class="logo">Блог о путешествии</span>  <!-- Project title -->
+        <h3>Навигация</h3>  <!-- Navigation heading -->
+        <ul class="nav-list">  <!-- Unordered list for navigation links -->
+            <li><a href="{% url "home" %}" class="home-icon"><img src="{% static 'main/img/home.png' %}" alt="Главная" />Главная</a></li>  <!-- Home link -->
+            <li><a href="{% url "about" %}" class="about-icon"><img src="{% static 'main/img/info.png' %}" alt="О нас" />О нас</a></li>  <!-- About link -->
+            <li><a href="{% url "news_home" %}" class="news-icon"><img src="{% static 'main/img/news.png' %}" alt="Статьи" />Статьи</a></li>  <!-- News articles link -->
+            <li><a href="{% url 'write_article' %}" class="create-icon"><img src="{% static 'main/img/pen.png' %}" alt="Добавить статью" />Добавить статью</a></li>  <!-- Article creation link -->
+            <li><a href="{% url 'admin:index' %}" class="admin-icon"><img src="{% static 'main/img/key.png' %}" alt="Админ-панель" />Админ-панель</a></li>  <!-- Admin panel link -->
+        </ul>
+    </aside>
+    <main>  <!-- Main content area -->
+        {% block content %}{% endblock %}  <!-- Block for content to be inserted from child templates. -->
+    </main>
+</body>
+</html>

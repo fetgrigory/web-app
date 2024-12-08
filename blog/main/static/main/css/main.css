@@ -1,0 +1,47 @@
+body {
+   background-color: #f5f5dc; /* Beige background */
+}
+
+aside {
+   float: left;
+   background: linear-gradient(-45deg, blue -30%, transparent 80%), linear-gradient(45deg, darkred 20%, crimson, darkorange 60%, gold, bisque); /* gradient */
+   width: 20%;
+   padding: 2.5%;
+   height: 100vh;
+   color: #333; /* Dark gray text for contrast */
+   border-right: 5px solid #d3d3d3; /* Light gray border */
+}
+
+aside .img {
+   width: 80px;
+   float: left;
+}
+
+aside .logo {
+   font-size: 40px;
+   margin-left: 10px;
+   font-weight: bold;
+   position: relative;
+   top: -5px;
+   color: #333; /* Dark gray text */
+}
+.nav-list {
+   list-style: none;
+ }
+ 
+ .nav-list li {
+   color: #333;
+   margin-top: 20px;
+ }
+ .nav-list li a { /* Добавляем стиль для ссылок внутри li */
+   color: #0b0b0c; /* Или любой другой желаемый цвет */
+   text-decoration: none; /* Убираем подчеркивание у ссылок, если нужно */
+ }
+
+main {
+   float: left;
+   color: #333; /* Dark gray text */
+   margin-top: 100px;
+   text-align: center;
+   width: 75%;
+}
