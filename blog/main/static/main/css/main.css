@@ -33,9 +33,9 @@ aside .logo {
    color: #333;
    margin-top: 20px;
  }
- .nav-list li a { /* Добавляем стиль для ссылок внутри li */
-   color: #0b0b0c; /* Или любой другой желаемый цвет */
-   text-decoration: none; /* Убираем подчеркивание у ссылок, если нужно */
+ .nav-list li a { /* Adding a style for links inside li */
+   color: #0b0b0c; /* Or any other desired color */
+   text-decoration: none; /* Remove underscores from links, if necessary */
  }
 
 main {
