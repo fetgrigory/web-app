@@ -8,3 +8,5 @@
 ![2](https://github.com/user-attachments/assets/c1e5d2f8-358b-4a56-b134-03ac3ab40b11)
 # Режим чтения
 ![3](https://github.com/user-attachments/assets/ee6ed742-e4c2-4949-8294-6a151b84557e)
+# Режим добавление статьи
+![4](https://github.com/user-attachments/assets/9fe9c13d-9874-4fd7-8cac-44cfc898e493)
