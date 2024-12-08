@@ -6,3 +6,5 @@
 ![1](https://github.com/user-attachments/assets/2c95deb0-a181-4bac-a949-1d0b7d5bce3d)
 # Наши статьи
 ![2](https://github.com/user-attachments/assets/c1e5d2f8-358b-4a56-b134-03ac3ab40b11)
+# Режим чтения
+![3](https://github.com/user-attachments/assets/ee6ed742-e4c2-4949-8294-6a151b84557e)
