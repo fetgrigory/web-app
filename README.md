@@ -10,3 +10,27 @@
 ![3](https://github.com/user-attachments/assets/ee6ed742-e4c2-4949-8294-6a151b84557e)
 # Режим добавление статьи
 ![4](https://github.com/user-attachments/assets/9fe9c13d-9874-4fd7-8cac-44cfc898e493)
+# Админ-панель
+# Инструкция по использованию
+### Подготовка виртуального окружения и запуск сайта
+
+1. Создайте виртуальное окружение для изоляции зависимостей проекта. 
+   Используйте команду:
+   ```bash
+   python -m venv venv
+   ```
+
+2. Активируйте виртуальное окружение:
+   - На Windows:
+     ```bash
+     venv\Scripts\activate
+     ```
+   - На macOS и Linux:
+     ```bash
+     source venv/bin/activate
+     ```
+3. Запустите сервер командой:
+   ```bash
+   python manage.py runserver
+   ```
+4.  Затем перейти по адресу: http://127.0.0.1:8000
