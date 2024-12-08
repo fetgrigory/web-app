@@ -11,7 +11,10 @@
 # Режим добавление статьи
 ![4](https://github.com/user-attachments/assets/9fe9c13d-9874-4fd7-8cac-44cfc898e493)
 # Админ-панель
-![5](https://github.com/user-attachments/assets/fe6e2a22-65fd-43e6-a846-03d09e16cd0b)
+![05](https://github.com/user-attachments/assets/fce28745-a940-4b8e-9c38-41d645fb6e0f)
+Имя пользователя:admin
+Пароль:123
+![6](https://github.com/user-attachments/assets/fe6e2a22-65fd-43e6-a846-03d09e16cd0b)
 
 # Инструкция по использованию
 ### Подготовка виртуального окружения и запуск сайта
